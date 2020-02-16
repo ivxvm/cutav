@@ -24,6 +24,12 @@ dependencies:
 
 library:
   source-dirs: src
+  dependencies:
+  - filepath
+  - regex-tdfa
+  - free
+  default-extensions:
+  - DeriveFunctor
 
 executables:
   cutav-exe:
