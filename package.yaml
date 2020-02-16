@@ -30,6 +30,8 @@ library:
   - free
   default-extensions:
   - DeriveFunctor
+  - RecordWildCards
+  - MultiWayIf
 
 executables:
   cutav-exe:
